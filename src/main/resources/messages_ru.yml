@@ -1,0 +1,7 @@
+warning: "&6[{plugin}] &eПорода потрескивает! Тоннель может обрушиться"
+collapse: "&c[{plugin}] Камни осыпались! Будьте осторожны"
+reinforced: "&a[{plugin}] Деревянная опора укрепила тоннель"
+reload: "&e[{plugin}] Использование: /unstablemines reload"
+no-permission: "&c[{plugin}] Недостаточно прав"
+reload-success: "&a[{plugin}] Конфигурация перезагружена"
+reload-failed: "&c[{plugin}] Не удалось перезагрузить конфигурацию. Подробности в консоли"

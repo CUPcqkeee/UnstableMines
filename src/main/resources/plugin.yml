@@ -1,0 +1,14 @@
+name: UnstableMines
+version: ${project.version}
+main: ru.cupcqkeee.Main
+api-version: '1.21'
+author: CUPcqkeee
+description: Плагин добавляющий в игру нестабильную породу, которая может привести к плохому...
+commands:
+  unstablemines:
+    description: Перезагрузить конфигурацию плагина
+    usage: /unstablemines reload
+permissions:
+  unstablemines.admin:
+    description: Дает право на перезагрузку
+    default: op

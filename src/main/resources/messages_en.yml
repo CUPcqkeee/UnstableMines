@@ -1,0 +1,7 @@
+warning: "&6[{plugin}] &eThe rock is cracking! This tunnel may collapse"
+collapse: "&c[{plugin}] Rocks have fallen! Watch your step"
+reinforced: "&a[{plugin}] A wooden support has reinforced the tunnel"
+reload: "&e[{plugin}] Usage: /unstablemines reload"
+no-permission: "&c[{plugin}] You do not have permission"
+reload-success: "&a[{plugin}] Configuration reloaded"
+reload-failed: "&c[{plugin}] Could not reload the configuration. Check the console"

@@ -1,0 +1,34 @@
+language: ru
+plugin-name: "Шахта: "
+
+risk:
+  # Увеличение риска в соседних неукреплённых участках тоннеля
+  mining-increase: 8
+  # Увеличение риска после взрыва
+  explosion-increase: 30
+  warning-threshold: 40
+  collapse-threshold: 75
+  # Шанс в процентах запланировать обрушение при увеличении риска выше порога
+  collapse-chance: 15
+  decay-per-minute: 2
+  # Снижение риска в соседних тоннелях при установке деревянной опоры
+  support-relief: 30
+  scan-radius: 4
+  maximum-tunnel-y: 64
+  collapse-delay-ticks: 60
+  player-notice-radius: 24
+
+collapse:
+  # RESTORE_MINED_BLOCKS возвращает блоки на места добычи
+  # FALL_ON_PLAYER сбрасывает блоки, добытые инициатором обрушения, на него
+  mode: RESTORE_MINED_BLOCKS
+  # Максимальное количество выкопанных блоков, участвующих в одном обрушении
+  maximum-mined-blocks: 32
+  # Лимит хранимых выкопанных блоков на один участок тоннеля
+  maximum-tracked-blocks-per-section: 128
+
+cracks:
+  # Значение частицы из перечисления Particle
+  # BLOCK показывает осколки выбранного материала
+  particle: BLOCK
+  material: STONE
